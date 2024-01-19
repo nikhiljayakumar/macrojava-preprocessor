@@ -1,0 +1,7 @@
+need to create function that first parses macros into unorderded_map<str a, str b> where a is the input with argument inside, and b is output
+use str.find("(") in order to find length of input a. (i.e. foo(arg) = 3, zero(0+1) = 4). This is used to match when the input is checked throughout the code
+print out replacement with output b from unorderded_map replacing correct part of code.
+
+copying MacroJavaSpecification in my grammar
+creating grammar probably going to be toughest part
+problem right now: understand what tokens needed in flex file & understanding how to implement grammar into bison
